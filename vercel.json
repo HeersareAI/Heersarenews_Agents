@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "installCommand": "npm install",
+  "regions": ["iad1"],
+  "env": {
+    "INNGEST_SIGNING_KEY": "@inngest_signing_key",
+    "INNGEST_EVENT_KEY": "@inngest_event_key"
+  }
+}
